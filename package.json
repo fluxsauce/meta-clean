@@ -1,0 +1,43 @@
+{
+  "name": "meta-clean",
+  "version": "1.0.0",
+  "description": "Clean up merged git branches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "meta-clean": "./bin/meta-clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluxsauce/meta-clean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fluxsauce/meta-clean/issues"
+  },
+  "homepage": "https://github.com/fluxsauce/meta-clean#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "lodash": "^4.17.20",
+    "meta-loop": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "package-json-validator": "^0.6.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base"
+    ]
+  }
+}

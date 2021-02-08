@@ -1,2 +1,2 @@
-# meta-git-clean
+# meta-clean
 Clean up merged git branches
