@@ -1,13 +1,13 @@
 {
   "name": "meta-clean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Clean up merged git branches",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "meta-clean": "./bin/meta-clean"
+    "meta-clean": "./bin/meta-clean.js"
   },
   "repository": {
     "type": "git",
