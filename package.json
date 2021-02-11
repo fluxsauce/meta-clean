@@ -1,6 +1,6 @@
 {
   "name": "meta-clean",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clean up merged git branches",
   "main": "index.js",
   "scripts": {
