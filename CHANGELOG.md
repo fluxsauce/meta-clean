@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.4
+
+- Fixed hang
+- Downgraded `commander`
+
 ## v1.0.3
 
 - Updated `.gitignore` to exclude IDE files

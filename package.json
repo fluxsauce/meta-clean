@@ -1,6 +1,6 @@
 {
   "name": "meta-clean",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Clean up merged git branches",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
-    "commander": "^7.0.0",
+    "commander": "^6.0.0",
     "lodash": "^4.17.20"
   },
   "devDependencies": {

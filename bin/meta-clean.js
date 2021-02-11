@@ -39,7 +39,7 @@ async function clean(projectName) {
   }
 
   try {
-    const result = await exec(`xargs git -C ${gitPath} remote prune origin`);
+    const result = await exec(`git -C ${gitPath} remote prune origin`);
     if (result.stdout) {
       output.push(result.stdout.trim());
     }
