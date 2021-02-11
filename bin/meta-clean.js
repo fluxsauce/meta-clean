@@ -38,6 +38,18 @@ async function clean(projectName) {
     }
   }
 
+  try {
+    const result = await exec(`xargs git -C ${gitPath} remote prune origin`);
+    if (result.stdout) {
+      output.push(result.stdout.trim());
+    }
+    if (result.stderr) {
+      errors.push(result.stderr.trim());
+    }
+  } catch (err) {
+    errors.push(err.message);
+  }
+
   console.log(`${chalk.blue(projectName)}:`); // eslint-disable-line no-console
   if (output.length > 0) {
     output.forEach((line) => console.log(chalk.green(line))); // eslint-disable-line no-console
